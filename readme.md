@@ -13,4 +13,4 @@ Compatible with Kamailio: v5.2.x and v5.3.x
 To install and deploy Siremis using Docker, see:
 
   * misc/docker/README.md
-  * on github: https://github.com/asipto/siremis/tree/master/misc/docker
+  * on github: https://github.com/Beebop-Systems-LLC/BeebopSBCUI/tree/master/misc/docker
