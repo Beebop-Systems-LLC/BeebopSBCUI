@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EasyForm Name="GroupNewForm" Class="EasyForm" FormType="New" jsClass="jbForm" Title="New Group" Description="" BizDataObj="system.do.GroupDO" TemplateEngine="Smarty" TemplateFile="detail.tpl" EventName="" MessageFile="">
+    <DataPanel>
+        <Element Name="fld_name" Class="InputText" FieldName="name" Label="Name"  AllowURLParam="N" CssClass="mdc-text-field__input"  cssFocusClass="mdc-text-field__input" CssErrorClass="input_text_error" />
+        <Element Name="fld_description" Class="Textarea" CssClass="mdc-text-field--filled change-wid"  cssFocusClass="mdc-text-field--filled change-wid" FieldName="description" Label="Description"  AllowURLParam="N"/>
+        </DataPanel>
+    <ActionPanel>
+        <Element Name="btn_save" Class="Button" Text="Save" CssClass="mdc-button mdc-button--raised space-size">
+            <EventHandler Name="save_onclick" EventLogMsg="" Event="onclick" Function="InsertRecord()" RedirectPage="form=system.form.GroupDetailForm&amp;fld:Id={@system.do.GroupDO:Field[Id].Value}"  ShortcutKey="Ctrl+Enter" ContextMenu="Save" />
+        </Element>
+        <Element Name="btn_cancel" Class="Button" Text="Cancel" CssClass="mdc-button mdc-button--raised">
+            <EventHandler Name="cancel_onclick" Event="onclick" Function="SwitchForm(system.form.GroupListForm)"  ShortcutKey="Escape" ContextMenu="Cancel"/>
+        </Element>
+    </ActionPanel> 
+    <NavPanel>
+    </NavPanel> 
+    <SearchPanel>
+    </SearchPanel>
+</EasyForm>

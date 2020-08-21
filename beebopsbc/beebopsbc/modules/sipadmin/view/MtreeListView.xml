@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<EasyView Name="MtreeListView" Description="sipadmin.srv.mtree" Class="EasyView" Tab="" TemplateEngine="Smarty" Access="SIPAdmin.Administer_Modules" TemplateFile="view.tpl">
+   <FormReferences>
+   		<Reference Name="sipadmin.srv.mtree.form.MtreeListForm"/>
+   </FormReferences>
+   <FormReferenceLibs>
+   		<Reference Name="sipadmin.srv.mtree.form.MtreeListForm"/>
+   		<Reference Name="sipadmin.srv.mtree.form.MtreeEditForm"/>
+   		<Reference Name="sipadmin.srv.mtree.form.MtreeCopyForm"/>
+   		<Reference Name="sipadmin.srv.mtree.form.MtreeNewForm"/>
+   		<Reference Name="sipadmin.srv.mtree.form.MtreeDetailForm"/>
+   </FormReferenceLibs>    
+</EasyView>

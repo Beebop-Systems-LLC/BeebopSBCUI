@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<EasyView Name="DialogListView" Description="sipadmin.srv.dialog" Class="EasyView" Tab="" TemplateEngine="Smarty" Access="SIPAdmin.Administer_Modules" TemplateFile="view.tpl">
+   <FormReferences>
+   		<Reference Name="sipadmin.srv.dialog.form.DialogListForm"/>
+   </FormReferences>
+   <FormReferenceLibs>
+   		<Reference Name="sipadmin.srv.dialog.form.DialogListForm"/>
+   		<Reference Name="sipadmin.srv.dialog.form.DialogEditForm"/>
+   		<Reference Name="sipadmin.srv.dialog.form.DialogCopyForm"/>
+   		<Reference Name="sipadmin.srv.dialog.form.DialogNewForm"/>
+   		<Reference Name="sipadmin.srv.dialog.form.DialogDetailForm"/>
+   </FormReferenceLibs>    
+</EasyView>

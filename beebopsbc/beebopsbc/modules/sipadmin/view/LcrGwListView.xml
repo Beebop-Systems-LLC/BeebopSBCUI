@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<EasyView Name="LcrGwListView" Description="sipadmin.rtg.lcr" Class="EasyView" Tab="" TemplateEngine="Smarty" Access="SIPAdmin.Administer_Modules" TemplateFile="view.tpl">
+   <FormReferences>
+   		<Reference Name="sipadmin.rtg.lcr.form.LcrGwListForm"/>
+   </FormReferences>
+   <FormReferenceLibs>
+   		<Reference Name="sipadmin.rtg.lcr.form.LcrGwListForm"/>
+   		<Reference Name="sipadmin.rtg.lcr.form.LcrGwEditForm"/>
+   		<Reference Name="sipadmin.rtg.lcr.form.LcrGwCopyForm"/>
+   		<Reference Name="sipadmin.rtg.lcr.form.LcrGwNewForm"/>
+   		<Reference Name="sipadmin.rtg.lcr.form.LcrGwDetailForm"/>
+   </FormReferenceLibs>    
+</EasyView>

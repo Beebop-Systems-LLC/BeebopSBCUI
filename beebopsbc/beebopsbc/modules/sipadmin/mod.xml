@@ -1,0 +1,216 @@
+<?xml version="1.0" standalone="no"?>
+<Module Name="sipadmin" Description="SIP Admin Modules" Version="5.3" OpenbizVersion="2.4">
+	<ACL>
+		<Resource Name="SIPAdmin">
+			<Action Name="Administer_Modules" Description="Allowed To Manage All SIP Settings"/>
+		</Resource>
+	</ACL>
+    <Menu>
+		<MenuItem Name="System.Sipadmin" Title="SIP Admin Menu" Description="SIP Admin Management" URL="/sipadmin/sipadmin_default" Access="SIPAdmin.Administer_Modules" IconImage="spacer.gif" IconCssClass="" Order="25">
+			<MenuItem Name="System.Sipadmin.Sbs" Title="Subscriber Services" Parent="System.Sipadmin" Order="10">
+				<MenuItem Name="System.Sipadmin.Sbs.Subscriber.List" Title="Subscriber List" Description=""
+					URL="{@home:url}/sipadmin/subscriber_list" Order="20"/>
+				<MenuItem Name="System.Sipadmin.Sbs.Aliasdb.List" Title="Aliases DB List" Description=""
+					URL="{@home:url}/sipadmin/aliasdb_list" Order="30"/>
+				<MenuItem Name="System.Sipadmin.Sbs.Speeddial.List" Title="Speed Dial List" Description=""
+					URL="{@home:url}/sipadmin/speed_dial_list" Order="40"/>
+				<MenuItem Name="System.Sipadmin.Sbs.UsrPreferences.List" Title="User Preferences" Description=""
+					URL="{@home:url}/sipadmin/usr_preferences_list" Order="50"/>
+				<MenuItem Name="System.Sipadmin.Sbs.Uridb.List" Title="URI DB List" Description=""
+					URL="{@home:url}/sipadmin/uri_list" Order="60"/>
+				<MenuItem Name="System.Sipadmin.Sbs.Location.Management" Title="Location Management" Description=""
+							URL="" Order="70">
+					<MenuItem Name="System.Sipadmin.Sbs.Location.List" Title="Location List" Description=""
+						URL="{@home:url}/sipadmin/location_list" Order="10"/>
+					<MenuItem Name="System.Sipadmin.Sbs.LocationAttrs.List" Title="Location Attrs List" Description=""
+						URL="{@home:url}/sipadmin/location_attrs_list" Order="20"/>
+				</MenuItem>
+				<MenuItem Name="System.Sipadmin.Sbs.Msilo.List" Title="Messages List" Description=""
+					URL="{@home:url}/sipadmin/silo_list" Order="80"/>
+				<MenuItem Name="System.Sipadmin.Sbs.Userblacklist.Management" Title="Blacklist Management" Description=""
+							URL="" Order="90">
+					<MenuItem Name="System.Sipadmin.Sbs.Userblacklist.List" Title="User Black List" Description=""
+						URL="{@home:url}/sipadmin/userblacklist_list" Order="10"/>
+					<MenuItem Name="System.Sipadmin.Sbs.Globalblacklist.List" Title="Global Black List" Description=""
+						URL="{@home:url}/sipadmin/globalblacklist_list" Order="20"/>
+				</MenuItem>
+			</MenuItem>
+			<MenuItem Name="System.Sipadmin.Srv" Title="Server Services" Parent="System.Sipadmin" Order="20">
+				<MenuItem Name="System.Sipadmin.Srv.Domain.Management" Title="Domain Management" Description=""
+							URL="" Order="10">
+					<MenuItem Name="System.Sipadmin.Srv.Domain.List" Title="Domain List" Description=""
+						URL="{@home:url}/sipadmin/domain_list" Order="10"/>
+					<MenuItem Name="System.Sipadmin.Srv.DomainAttrs.List" Title="Domain Attrs List" Description=""
+						URL="{@home:url}/sipadmin/domain_attrs_list" Order="20"/>
+				</MenuItem>
+				<MenuItem Name="System.Sipadmin.Srv.Htable.List" Title="HTable List" Description=""
+					URL="{@home:url}/sipadmin/htable_list" Order="20"/>
+				<MenuItem Name="System.Sipadmin.Srv.Dialplan.List" Title="Dialplan List" Description=""
+					URL="{@home:url}/sipadmin/dialplan_list" Order="30"/>
+				<MenuItem Name="System.Sipadmin.Srv.Dialog.Management" Title="Dialog Management" Description=""
+							URL="" Order="40">
+					<MenuItem Name="System.Sipadmin.Srv.Dialog.List" Title="Dialog List" Description=""
+						URL="{@home:url}/sipadmin/dialog_list" Order="40"/>
+					<MenuItem Name="System.Sipadmin.Srv.DialogVars.List" Title="Dialog Vars List" Description=""
+						URL="{@home:url}/sipadmin/dialog_vars_list" Order="50"/>
+				</MenuItem>
+				<MenuItem Name="System.Sipadmin.Srv.SipTrace.List" Title="SIP Trace List" Description=""
+					URL="{@home:url}/sipadmin/sip_trace_list" Order="60"/>
+				<MenuItem Name="System.Sipadmin.Srv.UACReg.List" Title="UACReg List" Description=""
+					URL="{@home:url}/sipadmin/uacreg_list" Order="70"/>
+				<MenuItem Name="System.Sipadmin.Srv.Mtrees.Management" Title="MTrees Management" Description=""
+							URL="" Order="80">
+					<MenuItem Name="System.Sipadmin.Srv.Mtrees.List" Title="MTrees List" Description=""
+						URL="{@home:url}/sipadmin/mtrees_list" Order="10"/>
+					<MenuItem Name="System.Sipadmin.Srv.Mtree.List" Title="MTree List" Description=""
+						URL="{@home:url}/sipadmin/mtree_list" Order="20"/>
+				</MenuItem>
+				<MenuItem Name="System.Sipadmin.Srv.Topos.Management" Title="Topos Management" Description=""
+							URL="" Order="90">
+					<MenuItem Name="System.Sipadmin.Srv.ToposD.List" Title="ToposD List" Description=""
+						URL="{@home:url}/sipadmin/topos_d_list" Order="10"/>
+					<MenuItem Name="System.Sipadmin.Srv.ToposT.List" Title="ToposT List" Description=""
+						URL="{@home:url}/sipadmin/topos_t_list" Order="20"/>
+				</MenuItem>
+			</MenuItem>
+			<MenuItem Name="System.Sipadmin.Acl" Title="ACL Services" Parent="System.Sipadmin" Order="30">
+				<MenuItem Name="System.Sipadmin.Acl.Grp.Management" Title="Group Management" Description=""
+							URL="" Order="10">
+					<MenuItem Name="System.Sipadmin.Acl.Grp.List" Title="Group List" Description=""
+						URL="{@home:url}/sipadmin/grp_list" Order="10"/>
+					<MenuItem Name="System.Sipadmin.Acl.ReGrp.List" Title="RegExp Group List" Description=""
+						URL="{@home:url}/sipadmin/re_grp_list" Order="20"/>
+				</MenuItem>
+				<MenuItem Name="System.Sipadmin.Acl.Permissions.Management" Title="Permissions Management" Description=""
+							URL="" Order="30">
+					<MenuItem Name="System.Sipadmin.Acl.Address.List" Title="Permissions - Address" Description=""
+						URL="{@home:url}/sipadmin/address_list" Order="10"/>
+					<MenuItem Name="System.Sipadmin.Acl.Trusted.List" Title="Permissions - Trusted" Description=""
+						URL="{@home:url}/sipadmin/trusted_list" Order="20"/>
+				</MenuItem>
+			</MenuItem>
+			<MenuItem Name="System.Sipadmin.Rtg" Title="Routing Services" Parent="System.Sipadmin" Order="40">
+				<MenuItem Name="System.Sipadmin.Rtg.Dispatcher.List" Title="Dispatcher List" Description=""
+					URL="{@home:url}/sipadmin/dispatcher_list" Order="10"/>
+				<MenuItem Name="System.Sipadmin.Rtg.Pdt.List" Title="Pdt List" Description=""
+					URL="{@home:url}/sipadmin/pdt_list" Order="20"/>
+				<MenuItem Name="System.Sipadmin.Rtg.Lcr.Management" Title="LCR Management" Description=""
+							URL="" Order="30">
+					<MenuItem Name="System.Sipadmin.Rtg.LcrGw.List" Title="LCR Gateway List" Description=""
+						URL="{@home:url}/sipadmin/lcr_gw_list" Order="10"/>
+					<MenuItem Name="System.Sipadmin.Rtg.LcrRule.List" Title="LCR Rule List" Description=""
+						URL="{@home:url}/sipadmin/lcr_rule_list" Order="20"/>
+					<MenuItem Name="System.Sipadmin.Rtg.LcrRuleTarget.List" Title="LCR Target List" Description=""
+						URL="{@home:url}/sipadmin/lcr_rule_target_list" Order="30"/>
+				</MenuItem>
+				<MenuItem Name="System.Sipadmin.Rtg.CarrierRoute.Management" Title="CarrierRoute Management" Description=""
+							URL="" Order="60">
+					<MenuItem Name="System.Sipadmin.Rtg.CarrierRoute.List" Title="CR Route List" Description=""
+						URL="{@home:url}/sipadmin/carrierroute_list" Order="10"/>
+					<MenuItem Name="System.Sipadmin.Rtg.CarrierFailureRoute.List" Title="CR Failure List" Description=""
+						URL="{@home:url}/sipadmin/carrierfailureroute_list" Order="20"/>
+					<MenuItem Name="System.Sipadmin.Rtg.CarrierName.List" Title="CR Name List" Description=""
+						URL="{@home:url}/sipadmin/carrier_name_list" Order="30"/>
+					<MenuItem Name="System.Sipadmin.Rtg.CRDomainName.List" Title="CR Domain List" Description=""
+						URL="{@home:url}/sipadmin/domain_name_list" Order="40"/>
+				</MenuItem>
+				<MenuItem Name="System.Sipadmin.Rtg.Drouting.Management" Title="Drouting Management" Description=""
+							URL="" Order="70">
+					<MenuItem Name="System.Sipadmin.Rtg.DrGateways.List" Title="Dr Gateways List" Description=""
+						URL="{@home:url}/sipadmin/dr_gateways_list" Order="10"/>
+					<MenuItem Name="System.Sipadmin.Rtg.DrGroups.List" Title="Dr Groups List" Description=""
+						URL="{@home:url}/sipadmin/dr_groups_list" Order="20"/>
+					<MenuItem Name="System.Sipadmin.Rtg.DrGwLists.List" Title="Dr Gateways Ways Lists List" Description=""
+						URL="{@home:url}/sipadmin/dr_gw_lists_list" Order="30"/>
+					<MenuItem Name="System.Sipadmin.Rtg.DrRules.List" Title="Dr Rules List" Description=""
+						URL="{@home:url}/sipadmin/dr_rules_list" Order="40"/>
+				</MenuItem>
+			</MenuItem>
+			<MenuItem Name="System.Sipadmin.Acs" Title="Accounting Services" Parent="System.Sipadmin" Order="50">
+				<MenuItem Name="System.Sipadmin.Acs.Acc.Management" Title="Accounting Management" Description=""
+							URL="" Order="10">
+					<MenuItem Name="System.Sipadmin.Acs.Accounting" Title="Accounting List" Description=""
+						URL="{@home:url}/sipadmin/acc_list" Order="10"/>
+					<MenuItem Name="System.Sipadmin.Acs.MissedCalls" Title="Missed Calls List" Description=""
+						URL="{@home:url}/sipadmin/missed_calls_list" Order="20"/>
+				</MenuItem>
+				<MenuItem Name="System.Sipadmin.Acs.Cdrs.Management" Title="CDR Management" Description=""
+							URL="" Order="30">
+					<MenuItem Name="System.Sipadmin.Acs.Cdrs" Title="CDR List" Description=""
+						URL="{@home:url}/sipadmin/cdrs_list" Order="10"/>
+					<MenuItem Name="System.Sipadmin.Acs.BillingRates" Title="Billing Rates List" Description=""
+						URL="{@home:url}/sipadmin/billing_rates_list" Order="20"/>
+				</MenuItem>
+			</MenuItem>
+			<MenuItem Name="System.Sipadmin.Prs" Title="Presence Services" Parent="System.Sipadmin" Order="60">
+				<MenuItem Name="System.Sipadmin.Prs.Management" Title="Management List" Description=""
+							URL="" Order="10">
+					<MenuItem Name="System.Sipadmin.Prs.ActiveWatchers" Title="Active Watchers List" Description=""
+						URL="{@home:url}/sipadmin/active_watchers_list" Order="10"/>
+					<MenuItem Name="System.Sipadmin.Prs.Watchers" Title="Watchers List" Description=""
+						URL="{@home:url}/sipadmin/watchers_list" Order="20"/>
+					<MenuItem Name="System.Sipadmin.Prs.Presentity" Title="Presentity List" Description=""
+						URL="{@home:url}/sipadmin/presentity_list" Order="30"/>
+					<MenuItem Name="System.Sipadmin.Prs.Pua" Title="PUA List" Description=""
+						URL="{@home:url}/sipadmin/pua_list" Order="40"/>
+				</MenuItem>
+				<MenuItem Name="System.Sipadmin.Prs.Rls. Management" Title="RLS Management" Description=""
+							URL="" Order="50">
+					<MenuItem Name="System.Sipadmin.Prs.RlsWatchers" Title="RLS Watchers List" Description=""
+						URL="{@home:url}/sipadmin/rls_watchers_list" Order="10"/>
+					<MenuItem Name="System.Sipadmin.Prs.RlsPresentity" Title="RLS Presentity List" Description=""
+						URL="{@home:url}/sipadmin/rls_presentity_list" Order="20"/>
+				</MenuItem>
+				<MenuItem Name="System.Sipadmin.Prs.Xcap" Title="XCAP List" Description=""
+					URL="{@home:url}/sipadmin/xcap_list" Order="70"/>
+				<MenuItem Name="System.Sipadmin.Prs.Sca" Title="SCA List" Description=""
+					URL="{@home:url}/sipadmin/sca_subscriptions_list" Order="80"/>
+			</MenuItem>
+			<MenuItem Name="System.Sipadmin.Msc" Title="Misc Services" Parent="System.Sipadmin" Order="70">
+				<MenuItem Name="System.Sipadmin.Srv.Rtpengine.List" Title="RTPEngine List" Description=""
+					URL="{@home:url}/sipadmin/rtpengine_list" Order="10"/>
+				<MenuItem Name="System.Sipadmin.Srv.Rtpproxy.List" Title="RTPProxy List" Description=""
+					URL="{@home:url}/sipadmin/rtpproxy_list" Order="20"/>
+				<MenuItem Name="System.Sipadmin.Msc.Secfilter.List" Title="SecFilter List" Description=""
+					URL="{@home:url}/sipadmin/secfilter_list" Order="25"/>
+				<MenuItem Name="System.Sipadmin.Msc.Moh.Management" Title="MoH Management" Description=""
+							URL="{@home:url}/sipadmin/mohqueues_list" Order="30">
+					<MenuItem Name="System.Sipadmin.Msc.Mohqueues.List" Title="MoH Queues List" Description=""
+						URL="{@home:url}/sipadmin/mohqueues_list" Order="10"/>
+					<MenuItem Name="System.Sipadmin.Msc.Mohqcalls.List" Title="MoH QCalls List" Description=""
+						URL="{@home:url}/sipadmin/mohqcalls_list" Order="20"/>
+				</MenuItem>
+				<MenuItem Name="System.Sipadmin.Srv.Version.List" Title="Version List" Description=""
+					URL="{@home:url}/sipadmin/version_list" Order="40"/>
+			</MenuItem>
+			<MenuItem Name="System.Sipadmin.Cms" Title="Command Services" Parent="System.Sipadmin" Order="80">
+				<MenuItem Name="System.Sipadmin.Cms.Jrcmds" Title="JSONRPC Commands" Description=""
+					URL="{@home:url}/sipadmin/jrcmds" Order="10"/>
+				<MenuItem Name="System.Sipadmin.Cms.Xrcmds" Title="XMLRPC Commands" Description=""
+					URL="{@home:url}/sipadmin/xrcmds" Order="20"/>
+				<MenuItem Name="System.Sipadmin.Cms.Fscmds" Title="FSwitch Commands" Description=""
+					URL="{@home:url}/sipadmin/fscmds" Order="30"/>
+			</MenuItem>
+			<MenuItem Name="System.Sipadmin.Charts" Title="Chart Services" Parent="System.Sipadmin" Order="90">
+				<MenuItem Name="System.Sipadmin.Charts.Shm" Title="SHM Charts" Description=""
+					URL="{@home:url}/sipadmin/charts_shm/cg=shm" Order="20"/>
+				<MenuItem Name="System.Sipadmin.Charts.Load" Title="Load Charts" Description=""
+					URL="{@home:url}/sipadmin/charts_load/cg=load" Order="30"/>
+				<MenuItem Name="System.Sipadmin.Charts.Tm" Title="TM Charts" Description=""
+					URL="{@home:url}/sipadmin/charts_tm/cg=tm" Order="35"/>
+				<MenuItem Name="System.Sipadmin.Charts.Usrloc" Title="UsrLoc Charts" Description=""
+					URL="{@home:url}/sipadmin/charts_uls/cg=usrloc" Order="40"/>
+				<MenuItem Name="System.Sipadmin.ChartsStatsUls" Title="UsrLoc Stats" Description=""
+					URL="{@home:url}/sipadmin/charts_stats_uls" Order="60"/>
+				<MenuItem Name="System.Sipadmin.ChartsStatsAcc" Title="Acc Charts" Description=""
+					URL="{@home:url}/sipadmin/charts_stats_acc" Order="70"/>
+				<MenuItem Name="System.Sipadmin.SummaryStatsAcc" Title="Acc Summary" Description=""
+					URL="{@home:url}/sipadmin/summary_stats_acc" Order="80"/>
+			</MenuItem>
+		</MenuItem>
+    </Menu>
+    <Dependency>
+    	<Module Name="system"/>
+    	<Module Name="menu"/>
+    </Dependency>
+</Module>

@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<EasyView Name="TrustedListView" Description="sipadmin.acl.permissions" Class="EasyView" Tab="" TemplateEngine="Smarty" Access="SIPAdmin.Administer_Modules" TemplateFile="view.tpl">
+   <FormReferences>
+   		<Reference Name="sipadmin.acl.permissions.form.TrustedListForm"/>
+   </FormReferences>
+   <FormReferenceLibs>
+   		<Reference Name="sipadmin.acl.permissions.form.TrustedListForm"/>
+   		<Reference Name="sipadmin.acl.permissions.form.TrustedEditForm"/>
+   		<Reference Name="sipadmin.acl.permissions.form.TrustedCopyForm"/>
+   		<Reference Name="sipadmin.acl.permissions.form.TrustedNewForm"/>
+   		<Reference Name="sipadmin.acl.permissions.form.TrustedDetailForm"/>
+   </FormReferenceLibs>    
+</EasyView>

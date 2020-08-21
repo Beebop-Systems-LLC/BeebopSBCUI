@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EasyForm Name="DialogNewForm" Class="EasyForm" FormType="New" jsClass="jbForm" Title="New Dialog" Description="" BizDataObj="sipadmin.srv.dialog.do.DialogDO" TemplateEngine="Smarty" TemplateFile="detail.tpl" EventName="" MessageFile="">
+    <DataPanel>
+        <Element Name="fld_hash_entry" Class="InputText" FieldName="hash_entry" Label="Hash Entry"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_hash_id" Class="InputText" FieldName="hash_id" Label="Hash Id"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_callid" Class="InputText" FieldName="callid" Label="Callid"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_from_uri" Class="InputText" FieldName="from_uri" Label="From Uri"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_from_tag" Class="InputText" FieldName="from_tag" Label="From Tag"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_to_uri" Class="InputText" FieldName="to_uri" Label="To Uri"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_to_tag" Class="InputText" FieldName="to_tag" Label="To Tag"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_caller_cseq" Class="InputText" FieldName="caller_cseq" Label="Caller Cseq"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_callee_cseq" Class="InputText" FieldName="callee_cseq" Label="Callee Cseq"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_caller_route_set" Class="InputText" FieldName="caller_route_set" Label="Caller Route Set"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_callee_route_set" Class="InputText" FieldName="callee_route_set" Label="Callee Route Set"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_caller_contact" Class="InputText" FieldName="caller_contact" Label="Caller Contact"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_callee_contact" Class="InputText" FieldName="callee_contact" Label="Callee Contact"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_caller_sock" Class="InputText" FieldName="caller_sock" Label="Caller Sock"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_callee_sock" Class="InputText" FieldName="callee_sock" Label="Callee Sock"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_state" Class="InputText" FieldName="state" Label="State"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_start_time" Class="InputText" FieldName="start_time" Label="Start Time"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_timeout" Class="InputText" FieldName="timeout" Label="Timeout"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_sflags" Class="InputText" FieldName="sflags" Label="Sflags"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_iflags" Class="InputText" FieldName="iflags" Label="Iflags"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_toroute_name" Class="InputText" FieldName="toroute_name" Label="Toroute"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_req_uri" Class="InputText" FieldName="req_uri" Label="Req Uri"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_xdata" Class="InputText" FieldName="xdata" Label="X Data"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        </DataPanel>
+    <ActionPanel>
+        <Element Name="btn_save" Class="Button" Text="Save" CssClass="mdc-button mdc-button--raised space-size">
+            <EventHandler Name="save_onclick" EventLogMsg="" Event="onclick" Function="InsertRecord()" RedirectPage="form=sipadmin.srv.dialog.form.DialogDetailForm&amp;fld:Id={@sipadmin.srv.dialog.do.DialogDO:Field[Id].Value}"  ShortcutKey="Ctrl+Enter" ContextMenu="Save" />
+        </Element>
+        <Element Name="btn_cancel" Class="Button" Text="Cancel" CssClass="mdc-button mdc-button--raised">
+            <EventHandler Name="cancel_onclick" Event="onclick" Function="SwitchForm(sipadmin.srv.dialog.form.DialogListForm)"  ShortcutKey="Escape" ContextMenu="Cancel"/>
+        </Element>
+    </ActionPanel> 
+    <NavPanel>
+    </NavPanel> 
+    <SearchPanel>
+    </SearchPanel>
+</EasyForm>

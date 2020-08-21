@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<EasyView Name="XcapListView" Description="sipadmin.prs.xcapserver" Class="EasyView" Tab="" TemplateEngine="Smarty" Access="SIPAdmin.Administer_Modules" TemplateFile="view.tpl">
+   <FormReferences>
+   		<Reference Name="sipadmin.prs.xcapserver.form.XcapListForm"/>
+   </FormReferences>
+   <FormReferenceLibs>
+   		<Reference Name="sipadmin.prs.xcapserver.form.XcapListForm"/>
+   		<Reference Name="sipadmin.prs.xcapserver.form.XcapEditForm"/>
+   		<Reference Name="sipadmin.prs.xcapserver.form.XcapCopyForm"/>
+   		<Reference Name="sipadmin.prs.xcapserver.form.XcapNewForm"/>
+   		<Reference Name="sipadmin.prs.xcapserver.form.XcapDetailForm"/>
+   </FormReferenceLibs>    
+</EasyView>

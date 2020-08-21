@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+<BizDataObj Name="SiloDO" Description="" Class="sipadmin.sbs.msilo.do.SiloDO" DBName="Sipdb" Table="silo" SearchRule="" SortRule="" OtherSQLRule="" Uniqueness="" Stateless="N" IdGeneration="Identity" CacheLifeTime="0">
+	<BizFieldList>
+        <BizField Name="Id" Column="id"     Type="Number"/>
+        <BizField Name="src_addr" Column="src_addr" Length="128"   Required="Y" Type="Text"/>
+        <BizField Name="dst_addr" Column="dst_addr" Length="128"   Required="Y" Type="Text"/>
+        <BizField Name="username" Column="username" Length="64"   Required="Y" Type="Text"/>
+        <BizField Name="domain" Column="domain" Length="64"   Required="Y" Type="Text"/>
+        <BizField Name="inc_time" Column="inc_time"    Required="Y" Type="Number"/>
+        <BizField Name="exp_time" Column="exp_time"    Required="Y" Type="Number"/>
+        <BizField Name="snd_time" Column="snd_time"    Required="Y" Type="Number"/>
+        <BizField Name="ctype" Column="ctype" Length="32" DefaultValue="text/plain"  Required="Y" Type="Text"/>
+        <BizField Name="body" Column="body"    Required="Y" Type="Text"/>
+        <BizField Name="extra_hdrs" Column="extra_hdrs"    Required="N" Type="Text"/>
+        <BizField Name="callid" Column="callid" Length="128"   Required="N" Type="Text"/>
+        <BizField Name="status" Column="status"    Required="N" Type="Number"/>
+	</BizFieldList>
+    <TableJoins>
+    </TableJoins>
+    <ObjReferences>
+    </ObjReferences>
+</BizDataObj>

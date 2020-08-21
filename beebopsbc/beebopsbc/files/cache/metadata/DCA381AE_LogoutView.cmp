@@ -1,0 +1,1 @@
+a:1:{s:8:"EASYVIEW";a:2:{s:10:"ATTRIBUTES";a:5:{s:4:"NAME";s:10:"LogoutView";s:5:"CLASS";s:10:"LogoutView";s:11:"DESCRIPTION";s:6:"Logout";s:14:"TEMPLATEENGINE";s:6:"Smarty";s:12:"TEMPLATEFILE";s:18:"user_view.tpl.html";}s:14:"FORMREFERENCES";a:1:{s:9:"REFERENCE";a:2:{s:10:"ATTRIBUTES";a:1:{s:4:"NAME";s:20:"user.form.LogoutForm";}s:5:"VALUE";N;}}}}

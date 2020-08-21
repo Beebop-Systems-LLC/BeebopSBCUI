@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EasyForm Name="DialplanNewForm" Class="EasyForm" FormType="New" jsClass="jbForm" Title="New Dialplan" Description="" BizDataObj="sipadmin.srv.dialplan.do.DialplanDO" TemplateEngine="Smarty" TemplateFile="detail.tpl" EventName="" MessageFile="">
+    <DataPanel>
+        <Element Name="fld_dpid" Class="InputText" FieldName="dpid" Label="Dpid" AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_pr" Class="InputText" FieldName="pr" Label="Priority" DefaultValue="1" CssClass="mdc-text-field__input"/>
+        <Element Name="fld_match_op" Class="Listbox" CssClass="mdc-list" FieldName="match_op" Label="Match Op" AllowURLParam="N" SelectFrom="sipadmin.common.select.values(dialplanMatchOp)"/>
+        <Element Name="fld_match_exp" Class="InputText" FieldName="match_exp" Label="Match Exp" AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_match_len" Class="InputText" FieldName="match_len" Label="Match Len" DefaultValue="0" CssClass="mdc-text-field__input"/>
+        <Element Name="fld_subst_exp" Class="InputText" FieldName="subst_exp" Label="Subst Exp" AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_repl_exp" Class="InputText" FieldName="repl_exp" Label="Repl Exp" AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_attrs" Class="InputText" FieldName="attrs" Label="Attrs" AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        </DataPanel>
+    <ActionPanel>
+        <Element Name="btn_save" Class="Button" Text="Save" CssClass="mdc-button mdc-button--raised space-size">
+            <EventHandler Name="save_onclick" EventLogMsg="" Event="onclick" Function="InsertRecord()" RedirectPage="form=sipadmin.srv.dialplan.form.DialplanDetailForm&amp;fld:Id={@sipadmin.srv.dialplan.do.DialplanDO:Field[Id].Value}" ShortcutKey="Ctrl+Enter" ContextMenu="Save"/>
+        </Element>
+        <Element Name="btn_cancel" Class="Button" Text="Cancel" CssClass="mdc-button mdc-button--raised">
+            <EventHandler Name="cancel_onclick" Event="onclick" Function="SwitchForm(sipadmin.srv.dialplan.form.DialplanListForm)" ShortcutKey="Escape" ContextMenu="Cancel"/>
+        </Element>
+    </ActionPanel> 
+    <NavPanel>
+    </NavPanel> 
+    <SearchPanel>
+    </SearchPanel>
+</EasyForm>

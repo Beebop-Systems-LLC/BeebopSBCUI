@@ -1,0 +1,13 @@
+a:1:{i:0;a:12:{i:0;s:1:"2";i:1;s:1:"1";i:2;s:1:"1";i:3;s:15:"User Management";i:4;s:25:"What is User Management ?";i:5;s:77:"<p>
+	User Manage screen allows administrator to manage application users</p>
+";i:6;s:213:"<p>
+	Action can be done on the user management screen</p>
+<ul>
+	<li>
+		Add button to add a new user</li>
+	<li>
+		Edit button to edit a selected user</li>
+	<li>
+		Delete button to delete a selected user</li>
+</ul>
+";i:7;s:2:"10";i:8;s:1:"1";i:9;s:19:"2010-02-07 16:07:21";i:10;s:1:"1";i:11;s:19:"2010-05-01 12:50:12";}}

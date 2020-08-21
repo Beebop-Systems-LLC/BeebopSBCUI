@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="no"?>
+<Selection>
+
+	<SipTraceDirection Value="in" Text="in"/>
+	<SipTraceDirection Value="out" Text="out"/>
+
+	<avpDBType Value="0" Text="0 - String Name - String Value"/>
+	<avpDBType Value="1" Text="1 - String Name - Integer Value"/>
+	<avpDBType Value="2" Text="2 - Integer Name - String Value"/>
+	<avpDBType Value="3" Text="3 - Integer Name - String Value"/>
+
+	<dialplanMatchOp Value="0" Text="0 - Equal"/>
+	<dialplanMatchOp Value="1" Text="1 - RegExp"/>
+
+	<lcrGwTransport Value="0" Text="0 - NONE"/>
+	<lcrGwTransport Value="1" Text="1 - UDP"/>
+	<lcrGwTransport Value="2" Text="2 - TCP"/>
+	<lcrGwTransport Value="3" Text="3 - TLS"/>
+	<lcrGwTransport Value="4" Text="4 - SCTP"/>
+
+	<lcrGwURIScheme Value="0" Text="0 - NONE"/>
+	<lcrGwURIScheme Value="1" Text="1 - SIP"/>
+	<lcrGwURIScheme Value="2" Text="2 - SIPS"/>
+
+	<lcrGwRuleEnabled Value="0" Text="0 - NO"/>
+	<lcrGwRuleEnabled Value="1" Text="1 - YES"/>
+
+	<lcrGwRuleStopper Value="0" Text="0 - NO"/>
+	<lcrGwRuleStopper Value="1" Text="1 - YES"/>
+
+	<dispatcherAttrs Value="" Text="-- none --"/>
+	<dispatcherAttrs Value="weight" Text="weight"/>
+	<dispatcherAttrs Value="duid" Text="duid"/>
+	<dispatcherAttrs Value="maxload" Text="maxload"/>
+
+	<dispatcherFlags Value="0" Text="0 - Active - No Probing"/>
+	<dispatcherFlags Value="8" Text="8 - Active - Probing"/>
+	<dispatcherFlags Value="1" Text="1 - Inactive - No Probing"/>
+	<dispatcherFlags Value="9" Text="9 - Inactive - Probing"/>
+	<dispatcherFlags Value="4" Text="4 - Disabled - No Probing"/>
+
+	<userblacklistValue Value="0" Text="0 - Blacklist"/>
+	<userblacklistValue Value="1" Text="1 - Whitelist"/>
+
+	<htableKType Value="0" Text="0 - Single Key"/>
+	<htableKType Value="1" Text="1 - Array Key"/>
+	<htableVType Value="0" Text="0 - String Value"/>
+	<htableVType Value="1" Text="1 - Integer Value"/>
+
+</Selection>

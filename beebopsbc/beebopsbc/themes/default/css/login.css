@@ -1,0 +1,134 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+body{
+font-family: 'Roboto', sans-serif;
+}
+table, p, form, div, h1, h2, ul, li, pre{
+font-family: 'Roboto', sans-serif;}
+
+.cubi_logo_large{
+	background-repeat:no-repeat;
+	background-position:125px 90px;
+	text-align:left;
+	width:290px;
+	height:400px;
+	float:left;
+}
+.login_form{
+	text-align:left;
+	width:420px;
+	height:400px;
+	float:left; 
+}
+.v_line{
+	height:400px;
+	width:35px;
+	float:left;
+	background-image:url(../images/v_line.jpg);
+	background-repeat:no-repeat;
+	background-position:left 80px;
+}
+span#login_indicator{
+	float:left;
+	color:#BEBEBE;
+	text-indent:10px;
+	height:22px;
+	line-height:22px;
+	font-size:9pt;
+}
+#loader{
+ height:456px; 
+ width:792px; 
+ position:absolute;
+}
+#loader_bg{
+ height:456px; 
+ width:792px; 
+ position:absolute;
+ background-color:#eef0ef;
+}
+#forms{
+position: relative;
+    height: auto;
+    width: 792px;
+}
+/*30-6-2020*/
+div#login_box label {
+    color: #000 !important;
+    text-align:left !important;
+}
+div#login_box div#forms> div {
+    height: auto !important;
+}
+div#login_box input, div#login_box span {
+    background: none;
+    box-shadow: none;
+    border: none;
+    font-size: 15px;
+}
+div#login_box h1,div#login_box p {
+    color: #000;
+}
+form[name="user.form.AccountEditForm"] > div {
+    width: 100% !important;
+    height: auto !important;
+}
+form[name="user.form.AccountEditForm"] > div > div {
+    height: auto !important;
+}
+div#login_box p.input_row {
+       border-bottom: 1px solid #e6eaee!important;
+    padding: 10px 0!important;
+}
+div#login_box p.input_row:nth-child(4) {
+height: auto !important;
+    padding-bottom: 21px !important;
+    border: none !important;
+}
+div#login_box p.input_row:nth-child(4) span{
+width:100%;
+display:inline-block;}
+div#login_box p.input_row:last-child{
+border:none !important;}
+/*30-6-2020 end*/
+.usereditaccount div#login_box  form[name="user.form.AccountEditForm"] img{
+display:none !important;}
+.usereditaccount div#login_box form[name="user.form.AccountEditForm"] h1:before {
+    content: "lock";
+    font-family: "Material Icons";
+    font-size: 23px !important;
+    text-decoration: none;
+    position: absolute !important;
+    left: 0 !important;
+    top: 0;
+    bottom: 0 !important;
+}
+.usereditaccount div#login_box form[name="user.form.AccountEditForm"] h1 {
+    padding-left: 30px;
+    position: relative;
+}
+.usereditaccount div#login_box p.input_row:last-child a.mdc-button.mdc-button--raised {
+    margin-right: 10px !important;
+}
+div#login_box .login_form img {
+    width: 57%;
+}
+form[name='user.form.AccountEditForm'] {
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+}
+.mdc-list{
+    padding: 0 16px !important;
+    width: 100%;
+    height: 56px;
+    background: none;
+    border: 1px solid #90959d;
+    border-radius: 3px;
+}
+div#login_box p.input_row {
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+	

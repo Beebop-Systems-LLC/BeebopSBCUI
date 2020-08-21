@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EasyForm Name="DrGroupsNewForm" Class="EasyForm" FormType="New" jsClass="jbForm" Title="New Dr Groups" Description="" BizDataObj="sipadmin.rtg.drouting.do.DrGroupsDO" TemplateEngine="Smarty" TemplateFile="detail.tpl" EventName="" MessageFile="">
+    <DataPanel>
+        <Element Name="fld_username" Class="InputText" FieldName="username" Label="Username"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_domain" Class="InputText" FieldName="domain" Label="Domain"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_groupid" Class="InputText" FieldName="groupid" Label="Groupid"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        <Element Name="fld_description" Class="InputText" FieldName="description" Label="Description"  AllowURLParam="N" CssClass="mdc-text-field__input" CssErrorClass="input_text_error" CssFocusClass="mdc-text-field__input"/>
+        </DataPanel>
+    <ActionPanel>
+        <Element Name="btn_save" Class="Button" Text="Save" CssClass="mdc-button mdc-button--raised space-size">
+            <EventHandler Name="save_onclick" EventLogMsg="" Event="onclick" Function="InsertRecord()" RedirectPage="form=sipadmin.rtg.drouting.form.DrGroupsDetailForm&amp;fld:Id={@sipadmin.rtg.drouting.do.DrGroupsDO:Field[Id].Value}"  ShortcutKey="Ctrl+Enter" ContextMenu="Save" />
+        </Element>
+        <Element Name="btn_cancel" Class="Button" Text="Cancel" CssClass="mdc-button mdc-button--raised">
+            <EventHandler Name="cancel_onclick" Event="onclick" Function="SwitchForm(sipadmin.rtg.drouting.form.DrGroupsListForm)"  ShortcutKey="Escape" ContextMenu="Cancel"/>
+        </Element>
+    </ActionPanel> 
+    <NavPanel>
+    </NavPanel> 
+    <SearchPanel>
+    </SearchPanel>
+</EasyForm>

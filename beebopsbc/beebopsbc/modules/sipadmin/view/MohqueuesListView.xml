@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<EasyView Name="MohqueuesListView" Description="sipadmin.msc.mohqueues" Class="EasyView" Tab="" TemplateEngine="Smarty" Access="SIPAdmin.Administer_Modules" TemplateFile="view.tpl">
+   <FormReferences>
+   		<Reference Name="sipadmin.msc.mohqueues.form.MohqueuesListForm"/>
+   </FormReferences>
+   <FormReferenceLibs>
+   		<Reference Name="sipadmin.msc.mohqueues.form.MohqueuesListForm"/>
+   		<Reference Name="sipadmin.msc.mohqueues.form.MohqueuesEditForm"/>
+   		<Reference Name="sipadmin.msc.mohqueues.form.MohqueuesCopyForm"/>
+   		<Reference Name="sipadmin.msc.mohqueues.form.MohqueuesNewForm"/>
+   		<Reference Name="sipadmin.msc.mohqueues.form.MohqueuesDetailForm"/>
+   </FormReferenceLibs>    
+</EasyView>

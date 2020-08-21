@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<EasyView Name="SubscriberListView" Description="sipadmin.sbs.authdb" Class="EasyView" Tab="" TemplateEngine="Smarty" Access="SIPAdmin.Administer_Modules" TemplateFile="view.tpl">
+   <FormReferences>
+		<Reference Name="sipadmin.sbs.authdb.form.SubscriberListForm" Description="Subscribers"/>
+   </FormReferences>
+   <FormReferenceLibs>
+   		<Reference Name="sipadmin.sbs.authdb.form.SubscriberListForm"/>
+   		<Reference Name="sipadmin.sbs.authdb.form.SubscriberEditForm"/>
+   		<Reference Name="sipadmin.sbs.authdb.form.SubscriberCopyForm"/>
+   		<Reference Name="sipadmin.sbs.authdb.form.SubscriberNewForm"/>
+   		<Reference Name="sipadmin.sbs.authdb.form.SubscriberDetailForm"/>
+   </FormReferenceLibs>    
+</EasyView>

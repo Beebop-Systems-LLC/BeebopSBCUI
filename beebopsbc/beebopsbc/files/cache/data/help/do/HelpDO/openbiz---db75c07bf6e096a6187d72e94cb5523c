@@ -1,0 +1,7 @@
+a:1:{i:0;a:12:{i:0;s:1:"7";i:1;s:1:"4";i:2;s:1:"4";i:3;s:20:"Event Log Management";i:4;s:18:"What is Event Log?";i:5;s:74:"<p>
+	Event log screen is to list all events logged by the application</p>
+";i:6;s:207:"<p>
+	On the Event Log screen, clicking on the comments link to see to event log detail.</p>
+<p>
+	Clicking on the Clear button, all log records will be deleted from the log table. Be careful of using it.</p>
+";i:7;s:2:"10";i:8;s:1:"1";i:9;s:19:"2010-05-01 13:12:11";i:10;s:1:"1";i:11;s:19:"2010-05-01 13:15:33";}}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metafile version="1.5"  client="site" >
+	<name>Beebop Theme</name>
+	<preview>theme_screen_2.png</preview>
+	<icon>theme_icon.png</icon>
+	<version>2.0</version>
+	<creationDate>2020-08-01</creationDate>
+	<author>Beebop Systems LLC</author>
+	<authorEmail>info@beebop.one</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright>Copyright (C)</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>Beebop Material Theme</description>
+</metafile>

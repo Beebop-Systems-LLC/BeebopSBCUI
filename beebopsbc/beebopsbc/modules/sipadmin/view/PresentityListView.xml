@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<EasyView Name="PresentityListView" Description="sipadmin.prs.presence" Class="EasyView" Tab="" TemplateEngine="Smarty" Access="SIPAdmin.Administer_Modules" TemplateFile="view.tpl">
+   <FormReferences>
+   		<Reference Name="sipadmin.prs.presence.form.PresentityListForm"/>
+   </FormReferences>
+   <FormReferenceLibs>
+   		<Reference Name="sipadmin.prs.presence.form.PresentityListForm"/>
+   		<Reference Name="sipadmin.prs.presence.form.PresentityEditForm"/>
+   		<Reference Name="sipadmin.prs.presence.form.PresentityCopyForm"/>
+   		<Reference Name="sipadmin.prs.presence.form.PresentityNewForm"/>
+   		<Reference Name="sipadmin.prs.presence.form.PresentityDetailForm"/>
+   </FormReferenceLibs>    
+</EasyView>

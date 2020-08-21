@@ -1,0 +1,94 @@
+s:3282:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Page Not Found</title>
+<link rel="stylesheet" href="/sbc/themes/default/css/general.css" type="text/css" />
+<link rel="stylesheet" href="/sbc/themes/default/css/login.css" type="text/css" />
+<link rel="stylesheet" href="/sbc/themes/default/css/openbiz.css" type="text/css">
+<link rel="stylesheet" href="/sbc/js/window/default.css" type="text/css">
+<script type='text/javascript' src='/sbc/js/prototype.js'></script>
+<script type='text/javascript' src='/sbc/js/scriptaculous.js'></script>
+<script type='text/javascript' src='/sbc/js/openbiz.js'></script>
+<script type='text/javascript' src='/sbc/js/window.js'></script>
+<script>
+</script>
+
+
+</head>
+
+<body>
+<div align="center">
+	<div id="wrap">
+		<div id="login_box">
+				<div id="forms" >
+					<div style="height:25px;"></div>
+										   <div><form id="common.form.NotfoundForm" name="common.form.NotfoundForm">
+<div style="float:left; width:110px; height:400px;">
+</div>
+<div style="float:left; width:620px; height:400px;">
+	<div style="height:75px;"></div>
+	<div style="height:35px;">
+		<div style="float:left; width:50px;"><img src="/sbc/themes/default/images/icon_info.gif" /></div>
+		<div style="float:left"><h1>Page Not Found</h1></div>
+	</div>
+	<div style="height:20px;"></div>
+		<p class="input_row" style="height:110px; line-height:20px;">
+		<label style="width:40px; height:100px;"></label>
+		<span>Sorry, the web page your are looking for is not found in our system. <br />
+Please check your spell of URL and try to open it again.<br />
+<br />
+We are sorry for any inconvenience.<br />
+</span>
+		</p>
+
+		<div style="height:10px;"></div>
+		<p class="input_row">
+			<label style="width:40px; text-align:right"></label>
+							<a id="btn_cancel" href="javascript:history.go(-1)"   CLASS='button_highlight' STYLE=''>Back</a>
+					</p>
+</div>
+</form>
+<script>Openbiz.newFormObject('common.form.NotfoundForm','Openbiz.Form',''); </script>
+
+</div>
+									</div>
+				<div id="loader_bg" ></div>
+				<div id="loader">
+					<div style="height:185px;"></div>
+					<div style="padding-left:300px; text-align:left">
+					<div class="loader_box">
+						<img src="/sbc/themes/default/images/ajax_loader.gif" style="float:left; margin-top:8px;" />
+						<p style="float:left;margin-left:10px; padding-top:5px;" >
+						<img src="/sbc/themes/default/images/loading.gif" />
+						<br/><span style="padding-left:3px;color:#aaaaaa ">Please wait a while ...</span></p>
+					</div>
+					</div>			
+				</div>
+				
+				<script>
+					$('loader_bg').fade( {from: 1, to: 0.7});
+					$('loader').fade( {from: 0, to: 1});
+				</script>
+				
+		</div>
+	</div>
+</div>
+
+
+<script>
+window.onload=fade_loader;
+window.onunload=fadeout_loader;
+function fade_loader(){
+	window.setTimeout("$('loader').fade( {from: 0.7, to: 0});",800);
+	window.setTimeout("$('loader_bg').fade( {from: 0.7, to: 0});",800);	
+	window.setTimeout("$('loader').hide();",2000);
+	window.setTimeout("$('loader_bg').hide();",2000);	
+}
+function fadeout_loader(){	
+	$('loader_bg').fade( {from: 0.5, to: 1});
+}
+</script>
+
+</body>
+</html>";

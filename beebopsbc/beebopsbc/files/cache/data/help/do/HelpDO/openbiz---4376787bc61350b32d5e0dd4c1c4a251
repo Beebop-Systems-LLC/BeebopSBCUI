@@ -1,0 +1,5 @@
+a:2:{i:0;a:12:{i:0;s:1:"4";i:1;s:1:"6";i:2;s:1:"6";i:3;s:15:"Help Management";i:4;s:24:"How to ceate a help tip?";i:5;s:101:"<p>
+	You need to go to Manage Help tips module and click Add button to create a new help tips.</p>
+";i:6;N;i:7;s:2:"10";i:8;s:1:"1";i:9;s:19:"2010-04-24 04:18:35";i:10;s:1:"1";i:11;s:19:"2010-04-24 04:19:35";}i:1;a:12:{i:0;s:1:"5";i:1;s:1:"6";i:2;s:1:"6";i:3;s:15:"Help Management";i:4;s:44:"How to map a help category to system module?";i:5;s:163:"<p>
+	You can mapping a help category to a module&#39;s left help panel by specified URL match. then the module will only show help tips under this category.</p>
+";i:6;N;i:7;s:2:"10";i:8;s:1:"1";i:9;s:19:"2010-04-24 04:21:54";i:10;s:1:"1";i:11;s:19:"2010-04-24 04:21:54";}}

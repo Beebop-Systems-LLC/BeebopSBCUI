@@ -1,0 +1,14 @@
+a:7:{i:0;a:11:{i:0;s:1:"1";i:1;s:1:"7";i:2;s:1:"7";i:3;s:15:"User Management";i:4;s:19:"/system/user_list.*";i:5;s:54:"<p>
+	About how to manage users and system access.</p>
+";i:6;s:2:"10";i:7;s:1:"1";i:8;s:19:"2010-04-19 18:15:18";i:9;s:1:"1";i:10;s:19:"2010-04-22 01:37:29";}i:1;a:11:{i:0;s:1:"7";i:1;s:1:"0";i:2;s:1:"0";i:3;s:12:"System Admin";i:4;N;i:5;s:30:"<p>
+	System help content.</p>
+";i:6;s:2:"10";i:7;s:1:"1";i:8;s:19:"2010-04-21 05:10:29";i:9;s:1:"1";i:10;s:19:"2010-04-21 05:11:54";}i:2;a:11:{i:0;s:1:"2";i:1;s:1:"7";i:2;s:1:"7";i:3;s:15:"Role Management";i:4;s:19:"/system/role_list.*";i:5;s:64:"<p>
+	About how to manage system role and permissions group.</p>
+";i:6;s:2:"20";i:7;s:1:"1";i:8;s:19:"2010-04-19 19:50:23";i:9;s:1:"1";i:10;s:19:"2010-04-21 08:10:48";}i:3;a:11:{i:0;s:1:"3";i:1;s:1:"7";i:2;s:1:"7";i:3;s:17:"Module Management";i:4;s:21:"/system/module_list.*";i:5;s:50:"<p>
+	About how to mount a module into system.</p>
+";i:6;s:2:"30";i:7;s:1:"1";i:8;s:19:"2010-04-21 03:35:11";i:9;s:1:"1";i:10;s:19:"2010-04-21 05:11:09";}i:4;a:11:{i:0;s:1:"4";i:1;s:1:"7";i:2;s:1:"7";i:3;s:20:"Event Log Management";i:4;s:19:"/system/event_log.*";i:5;s:31:"<p>About system event log/</p>
+";i:6;s:2:"40";i:7;s:1:"1";i:8;s:19:"2010-04-21 05:01:44";i:9;s:1:"1";i:10;s:19:"2010-04-21 08:09:53";}i:5;a:11:{i:0;s:1:"5";i:1;s:1:"7";i:2;s:1:"7";i:3;s:16:"Email Management";i:4;s:15:"/email/email_.*";i:5;s:51:"<p>
+	About how to manage system email function</p>
+";i:6;s:2:"50";i:7;s:1:"1";i:8;s:19:"2010-04-21 05:03:43";i:9;s:1:"1";i:10;s:19:"2010-05-01 13:19:08";}i:6;a:11:{i:0;s:1:"6";i:1;s:1:"7";i:2;s:1:"7";i:3;s:15:"Help Management";i:4;s:13:"/help/help_.*";i:5;s:70:"<p>
+	About how to manage the online help module of cubi system.</p>
+";i:6;s:2:"60";i:7;s:1:"1";i:8;s:19:"2010-04-21 05:09:50";i:9;s:1:"1";i:10;s:19:"2010-04-24 05:16:02";}}

@@ -1,0 +1,71 @@
+a:9:{i:0;a:12:{i:0;s:1:"1";i:1;s:1:"3";i:2;s:1:"3";i:3;s:17:"Module Management";i:4;s:26:"What is Module Management?";i:5;s:92:"<p>
+	Module Management screen allows administrator to manage modules in the application</p>
+";i:6;s:435:"<p>
+	Action can be done on the module management screen.</p>
+<ul>
+	<li>
+		Edit button. This is to activate or deactivate a module</li>
+	<li>
+		Delete button. This is to delete a module. When a module is deleted, its ACL settings are deleted as well.</li>
+	<li>
+		Load button. This is to load new modules added in the modules directory. The loading processor will read mod.xml, and load module and it ACL info to the system.</li>
+</ul>
+";i:7;s:2:"10";i:8;s:1:"1";i:9;s:19:"2010-05-01 13:01:58";i:10;s:1:"1";i:11;s:19:"2010-05-01 13:06:21";}i:1;a:12:{i:0;s:1:"2";i:1;s:1:"1";i:2;s:1:"1";i:3;s:15:"User Management";i:4;s:25:"What is User Management ?";i:5;s:77:"<p>
+	User Manage screen allows administrator to manage application users</p>
+";i:6;s:213:"<p>
+	Action can be done on the user management screen</p>
+<ul>
+	<li>
+		Add button to add a new user</li>
+	<li>
+		Edit button to edit a selected user</li>
+	<li>
+		Delete button to delete a selected user</li>
+</ul>
+";i:7;s:2:"10";i:8;s:1:"1";i:9;s:19:"2010-02-07 16:07:21";i:10;s:1:"1";i:11;s:19:"2010-05-01 12:50:12";}i:2;a:12:{i:0;s:1:"3";i:1;s:1:"2";i:2;s:1:"2";i:3;s:15:"Role Management";i:4;s:24:"What is Role Management?";i:5;s:88:"<p>
+	Role Management screen allows administrator to manage roles in the application</p>
+";i:6;s:211:"<p>
+	Actions can be done on the role management screen.</p>
+<ul>
+	<li>
+		Add button</li>
+	<li>
+		Edit button</li>
+	<li>
+		Delete button. If a role is deleted, its permissions will be deleted as well.</li>
+</ul>
+";i:7;s:2:"10";i:8;s:1:"1";i:9;s:19:"2010-02-07 17:25:46";i:10;s:1:"1";i:11;s:19:"2010-05-01 12:58:06";}i:3;a:12:{i:0;s:1:"4";i:1;s:1:"6";i:2;s:1:"6";i:3;s:15:"Help Management";i:4;s:24:"How to ceate a help tip?";i:5;s:101:"<p>
+	You need to go to Manage Help tips module and click Add button to create a new help tips.</p>
+";i:6;N;i:7;s:2:"10";i:8;s:1:"1";i:9;s:19:"2010-04-24 04:18:35";i:10;s:1:"1";i:11;s:19:"2010-04-24 04:19:35";}i:4;a:12:{i:0;s:1:"5";i:1;s:1:"6";i:2;s:1:"6";i:3;s:15:"Help Management";i:4;s:44:"How to map a help category to system module?";i:5;s:163:"<p>
+	You can mapping a help category to a module&#39;s left help panel by specified URL match. then the module will only show help tips under this category.</p>
+";i:6;N;i:7;s:2:"10";i:8;s:1:"1";i:9;s:19:"2010-04-24 04:21:54";i:10;s:1:"1";i:11;s:19:"2010-04-24 04:21:54";}i:5;a:12:{i:0;s:1:"6";i:1;s:1:"3";i:2;s:1:"3";i:3;s:17:"Module Management";i:4;s:23:"How to reload a module?";i:5;s:55:"<p>
+	A module can be reloaded to update its change</p>
+";i:6;s:173:"<p>
+	On the module management screen, click the module name to drilldown the module detail form. On this form, click Reload button to update the changes into the system</p>
+";i:7;s:2:"10";i:8;s:1:"1";i:9;s:19:"2010-05-01 13:09:09";i:10;s:1:"1";i:11;s:19:"2010-05-01 13:09:09";}i:6;a:12:{i:0;s:1:"7";i:1;s:1:"4";i:2;s:1:"4";i:3;s:20:"Event Log Management";i:4;s:18:"What is Event Log?";i:5;s:74:"<p>
+	Event log screen is to list all events logged by the application</p>
+";i:6;s:207:"<p>
+	On the Event Log screen, clicking on the comments link to see to event log detail.</p>
+<p>
+	Clicking on the Clear button, all log records will be deleted from the log table. Be careful of using it.</p>
+";i:7;s:2:"10";i:8;s:1:"1";i:9;s:19:"2010-05-01 13:12:11";i:10;s:1:"1";i:11;s:19:"2010-05-01 13:15:33";}i:7;a:12:{i:0;s:1:"8";i:1;s:1:"5";i:2;s:1:"5";i:3;s:16:"Email Management";i:4;s:26:"How to manage email queue?";i:5;s:75:"<p>
+	Email Queue Management screen allows user to manage queued emails</p>
+";i:6;s:431:"<p>
+	Action can be done on the email queue management screen.</p>
+<ul>
+	<li>
+		Send All button. This is to send all queued email immediately</li>
+	<li>
+		Send button. This is to send the selected email immediately</li>
+	<li>
+		Delete. This is to delete the selected email from the queue</li>
+	<li>
+		Delete Sent. This is to delete all sent emails from the queue</li>
+	<li>
+		Delete All. This is to empty the email queue</li>
+</ul>
+";i:7;s:2:"10";i:8;s:1:"1";i:9;s:19:"2010-05-01 13:17:05";i:10;s:1:"1";i:11;s:19:"2010-05-01 16:18:48";}i:8;a:12:{i:0;s:1:"9";i:1;s:1:"5";i:2;s:1:"5";i:3;s:16:"Email Management";i:4;s:24:"How to manage email log?";i:5;s:76:"<p>
+	Email Log Management screen allows user to manage email activities</p>
+";i:6;s:69:"<p>
+	Clicking the Clear button will empty the email log records.</p>
+";i:7;s:2:"10";i:8;s:1:"1";i:9;s:19:"2010-05-01 13:18:11";i:10;s:1:"1";i:11;s:19:"2010-05-01 16:19:59";}}

@@ -1,0 +1,13 @@
+a:1:{i:0;a:12:{i:0;s:1:"3";i:1;s:1:"2";i:2;s:1:"2";i:3;s:15:"Role Management";i:4;s:24:"What is Role Management?";i:5;s:88:"<p>
+	Role Management screen allows administrator to manage roles in the application</p>
+";i:6;s:211:"<p>
+	Actions can be done on the role management screen.</p>
+<ul>
+	<li>
+		Add button</li>
+	<li>
+		Edit button</li>
+	<li>
+		Delete button. If a role is deleted, its permissions will be deleted as well.</li>
+</ul>
+";i:7;s:2:"10";i:8;s:1:"1";i:9;s:19:"2010-02-07 17:25:46";i:10;s:1:"1";i:11;s:19:"2010-05-01 12:58:06";}}

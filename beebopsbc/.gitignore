@@ -1,0 +1,26 @@
+# ignore dependency files
+*.d
+# ignore binary files and objects
+*.so
+*.so.*
+*.o
+# archives
+*.tar.gz
+*.tgz
+*.deb
+*.rpm
+# tags
+tags
+TAGS
+# vi swaps
+.*.swp
+# Emacs backup files
+*~
+# Emacs file locks
+.#*
+# tmp files
+siremis/session/sess_*
+siremis/log/*.log
+siremis/install.lock
+siremis/files/cache/
+siremis/themes/default/template/cpl/
