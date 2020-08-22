@@ -48,7 +48,9 @@ make sure the right user/group is set for apache.
 Make sure you have set up a fully qualified name for host. 
 
 Then install LetsEncrypt Certificate Using Apache Method 
+
 https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-18-04
+
 https://www.rosehosting.com/blog/how-to-install-lets-encrypt-on-ubuntu-20-04-with-apache/
 
 ### Create Database
