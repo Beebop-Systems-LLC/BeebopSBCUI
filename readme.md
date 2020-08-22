@@ -32,6 +32,8 @@ sudo a2enmod rewrite
 sudo systemctl restart apache2
 ```
 
+Then move this project into place under /var/www/beebopsbc 
+
 Then move the files in /var/www/beebopsbc/apache2-conf
 into /etc/httpd/sites-available and symbolic link into /etc/httpd/sites-enabled
 
@@ -45,9 +47,11 @@ sudo apt-get install php libapache2-mod-php php-{mysql,gd,curl,xml,pear}
 sudo pear install XML_RPC2
 ```
 
-Then move this project into place under /var/www/beebopsbc 
-
 make sure the right user/group is set for apache.
+```
+chgrp -R /var/www/beebopsbc www-data
+chown -R /var/www/beebopsbc www-data
+```
 
 ### Install LetsEncrypt 
 
@@ -66,6 +70,7 @@ Then create the database siremis with the credentials.
 Then run this script on the siremis databse you just created /var/www/beebopsbc/sql/beebop.sql
 
 In the /var/www/beebopsbc/beebopsbc folder is Config.xml. 
+
 This is the credentials for both kamalio and siremis databases.
 
 ### Install Using Docker
