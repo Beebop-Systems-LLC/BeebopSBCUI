@@ -35,6 +35,10 @@ sudo systemctl restart apache2
 Then move the files in /var/www/beebopsbc/apache2-conf
 into /etc/httpd/sites-available and symbolic link into /etc/httpd/sites-enabled
 
+The path should be "/var/www/beebopsbc/beebopsbc/" and so the url will be https://beebopsbc.cisteradev.com/sbc.
+
+Look in the beebop.conf for apache to see the URL pathing.
+
 ### Install php
 ```
 sudo apt-get install php libapache2-mod-php php-{mysql,gd,curl,xml,pear}
