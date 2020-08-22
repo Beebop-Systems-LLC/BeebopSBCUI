@@ -7,7 +7,7 @@ Compatible with Kamailio: v5.2.x and v5.3.x
 
   * https://www.kamailio.org
 
-### Install
+### Install Kamalio
 
 To install you need firstly to install Kamalio. This is the install for v5.4 on debian
 
@@ -15,27 +15,33 @@ https://kamailio.org/docs/tutorials/5.4.x/kamailio-install-guide-deb/
 
 Make sure you have installed the kamalio database
 
+```
 sudo kamdbctl create
+```
 
-Then install apache2
+### Install Apache2
 
+```
 sudo apt-get update
 sudo apt-get install apache2
 sudo a2enmod rewrite
 sudo systemctl restart apache2
+```
 
-Then move the files in 
-/var/www/beebopsbc/apache2-conf
+Then move the files in /var/www/beebopsbc/apache2-conf
 into /etc/httpd/sites-available and symbolic link into /etc/httpd/sites-enabled
 
-Then install php
-
+### Install php
+```
 sudo apt-get install php libapache2-mod-php php-{mysql,gd,curl,xml,pear}
 sudo pear install XML_RPC2
+```
 
 Then move this project into place under /var/www/beebopsbc 
 
 make sure the right user/group is set for apache.
+
+### Create Database
 
 Then create the database siremis with the credentials. 
 
@@ -43,6 +49,8 @@ Then run this script on the siremis databse you just created /var/www/beebopsbc/
 
 In the /var/www/beebopsbc/beebopsbc folder is Config.xml. 
 This is the credentials for both kamalio and siremis databases.
+
+### Install Using Docker
 
 To install and deploy using Docker, see:
 
