@@ -3,6 +3,8 @@ http://siremis.asipto.com/
 
 ### Web Management Interface for Kamailio SIP Server - RELEASE 1.0 
 
+![Alt text](beebopsbc/beebopsbc/images/screenshot_large_600.PNG?raw=true "Screenshot")
+
 Compatible with Kamailio: v5.2.x and v5.3.x
 
   * https://www.kamailio.org
